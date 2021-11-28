@@ -18,7 +18,7 @@ Guide available here https://docs.microsoft.com/en-us/windows/terminal/install?W
 https://docs.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup[This] is the official Microsoft guide on how to enable oh-my-posh.
 You should also go through this https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal[guide] if you want great glyphs.
 You can customise your prompt further by changing the options in `ggurgul-oh-my-posh-profile.json` according to the https://ohmyposh.dev/docs/git[oh-my-posh docs].
-You may also choose completely different theme from this[https://ohmyposh.dev/docs/themes] list.
+You may also choose completely different theme from https://ohmyposh.dev/docs/themes[this list].
 
 == PowerShell
 
