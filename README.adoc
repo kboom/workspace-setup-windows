@@ -1,0 +1,17 @@
+:toc: macro
+:oh-my-posh: https://ohmyposh.dev/[Oh My Posh]
+
+= link:README.adoc[Home]
+
+The list of tools that every developer might want to have installed.
+
+---
+
+toc::[]
+
+---
+
+== PowerShell
+
+{oh-my-posh}::
+Customise your shell profile.
