@@ -21,7 +21,7 @@
         {
           "type": "path",
           "style": "plain",
-          "foreground": "blue",
+          "foreground": "#1aa5f5",
           "properties": {
             "prefix": "",
             "postfix": "",
