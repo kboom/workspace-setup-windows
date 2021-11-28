@@ -1,7 +1,7 @@
 :toc: macro
 :powershell-config: link:https://github.com/kboom/workspace-setup-windows-powershell[Workspace Setup Windows : PowerShell]
 :powershell-docs: link:PowerShell.adoc[PowerShell]
-:oh-my-posh: https://ohmyposh.dev/[Oh My Posh]
+
 
 = link:README.adoc[Home]
 
@@ -17,8 +17,6 @@ toc::[]
 
 See {powershell-config} repository to set up your awesome PowerShell environment.
 
-{oh-my-posh}::
-Customise your shell profile.
 
 == Windows tricks
 
