@@ -1,0 +1,80 @@
+:toc: macro
+
+= Useful commands
+
+This document present the most useful commands and techniques of PowerShell 7+.
+
+---
+
+toc::[]
+
+---
+
+== Help
+
+Try to find a command::
+```
+help *file*
+
+Name                              Category  Module                    Synopsis
+----                              --------  ------                    --------
+New-ScriptFileInfo                Function  PowerShellGet             …
+Test-ScriptFileInfo               Function  PowerShellGet             …
+Update-ScriptFileInfo             Function  PowerShellGet             …
+```
+
+Try to find a command by noun::
+```
+get-command -noun file
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Cmdlet          Out-File                                           7.0.0.0    Microsoft.PowerShell.Utility
+Cmdlet          Unblock-File                                       7.0.0.0    Microsoft.PowerShell.Utility
+```
+
+See examples for a command::
+`help hotfix -examples`
+
+See details of the parameter::
+`help get-help -parameter Name`
+
+== Pipelines
+
+Get members of a command::
+```
+Get-Service -Name w32time | Get-Member
+
+   TypeName: System.Service.ServiceController#StartupType
+
+Name                      MemberType    Definition
+----                      ----------    ----------
+Name                      AliasProperty Name = ServiceName
+RequiredServices          AliasProperty RequiredServices = ServicesDependedOn
+Disposed                  Event         System.EventHandler Disposed(System.Object, System.EventArgs)
+Close                     Method        void Close()
+Continue                  Method        void Continue()
+Dispose                   Method        void Dispose(), void IDisposable.Dispose()
+Equals                    Method        bool Equals(System.Object obj)
+```
+
+Select properties and sort by one of them::
+```
+Get-Process Spotify | Select-Object -Property Id, Name, CPU | Sort-Object -Descending -Property CPU
+
+   Id Name            CPU
+   -- ----            ---
+10352 Spotify  7745.40625
+29972 Spotify 2132.203125
+33168 Spotify    685.1875
+20580 Spotify    30.65625
+27704 Spotify    0.296875
+22796 Spotify     0.28125
+```
+
+== Loops
+
+Simplest loop with action::
+```
+'1', '2' | ForEach-Object { Write-Host $_ }
+```
