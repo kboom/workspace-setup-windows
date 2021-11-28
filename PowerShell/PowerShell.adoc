@@ -25,7 +25,9 @@ You need to move or link the contents of this directory to your `$PROFILE` base 
 === Enable running scripts which you created locally
 Run your terminal as administrator and issue `set-executionpolicy remotesigned` which will allow running ps1 scripts created locally but require the ones that you download to be signed. If you downloaded a script from the internet and you are sure it is secure then you can just right click on it and select "unblock". Make sure it is not read-only as otherwise it will fail with awkward error.
 
-== Help
+== Command glossary
+
+=== Help
 
 Try to find a command::
 ```
@@ -54,7 +56,7 @@ See examples for a command::
 See details of the parameter::
 `help get-help -parameter Name`
 
-== Pipelines
+=== Pipelines
 
 Get members of a command::
 ```
@@ -87,7 +89,7 @@ Get-Process Spotify | Select-Object -Property Id, Name, CPU | Sort-Object -Desce
 22796 Spotify     0.28125
 ```
 
-== Loops
+=== Loops
 
 Simplest loop with action::
 ```
