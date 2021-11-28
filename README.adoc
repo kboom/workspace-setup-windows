@@ -11,6 +11,12 @@ toc::[]
 
 ---
 
+== Set up
+
+Customize your terminal::
+Guide available here https://docs.microsoft.com/en-us/windows/terminal/install?WT.mc_id=-blog-scottha[here].
+You should also go through this https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal[guide] if you want great glyphs.
+
 == PowerShell
 
 {oh-my-posh}::
