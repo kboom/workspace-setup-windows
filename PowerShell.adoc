@@ -18,19 +18,6 @@ Clone the PowerShell repository which contains PowerShell configuration and scri
 git clone git@github.com:kboom/workspace-setup-windows-powershell.git PowerShell
 ```
 
-=== Customize your terminal
-
-Guide available here https://docs.microsoft.com/en-us/windows/terminal/install?WT.mc_id=-blog-scottha[here].
-https://docs.microsoft.com/en-us/windows/terminal/tutorials/custom-prompt-setup[This] is the official Microsoft guide on how to enable oh-my-posh.
-You should also go through this https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal[guide] if you want great glyphs.
-You can customise your prompt further by changing the options in `ggurgul-oh-my-posh-profile.json` according to the https://ohmyposh.dev/docs/git[oh-my-posh docs].
-You may also choose completely different theme from https://ohmyposh.dev/docs/themes[this list].
-
-You need to move or link the contents of this directory to your `$PROFILE` base directory.
-
-=== Enable running scripts which you created locally
-Run your terminal as administrator and issue `set-executionpolicy remotesigned` which will allow running ps1 scripts created locally but require the ones that you download to be signed. If you downloaded a script from the internet and you are sure it is secure then you can just right click on it and select "unblock". Make sure it is not read-only as otherwise it will fail with awkward error.
-
 == Command glossary
 
 === Help
