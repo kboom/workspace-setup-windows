@@ -24,3 +24,7 @@ You may also choose completely different theme from this[https://ohmyposh.dev/do
 
 {oh-my-posh}::
 Customise your shell profile.
+
+== Windows tricks
+
+1. Rather than trying to bring back the windows you were using after bringing up a different one just type alt + esc, as this will simply move the window to the bottom, but not minimize it, which is much more useful if the ones in front are not full size. This also works nicely with later alt + tab, if you need to bring back the window you just moved to back.
