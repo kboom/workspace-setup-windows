@@ -12,6 +12,12 @@ toc::[]
 
 == Setup
 
+Clone the PowerShell repository which contains PowerShell configuration and scripts in the location referenced by your `$PROFILE` variable:
+
+```
+git clone git@github.com:kboom/workspace-setup-windows-powershell.git PowerShell
+```
+
 === Customize your terminal
 
 Guide available here https://docs.microsoft.com/en-us/windows/terminal/install?WT.mc_id=-blog-scottha[here].
