@@ -48,7 +48,7 @@
           "style": "plain",
           "foreground": "green",
           "foreground_templates": [
-            "{{ if or (.Working.Changed) (.Staging.Changed) }}lightYellow{{ end }}",
+            "{{ if or (.Working.Changed) (.Staging.Changed) }}yellow{{ end }}",
             "{{ if and (gt .Ahead 0) (gt .Behind 0) }}red{{ end }}",
             "{{ if gt .Ahead 0 }}red{{ end }}",
             "{{ if gt .Behind 0 }}green{{ end }}"
