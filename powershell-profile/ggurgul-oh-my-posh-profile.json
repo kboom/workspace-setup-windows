@@ -5,7 +5,7 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "#c386f1",
+          "background": "#a63cf7",
           "foreground": "#ffffff",
           "leading_diamond": "",
           "properties": {
@@ -17,17 +17,19 @@
           "type": "session"
         },
         {
-          "background": "#ff479c",
-          "foreground": "#ffffff",
-          "powerline_symbol": "",
-          "properties": {
-            "folder_separator_icon": "  ",
-            "home_icon": "~",
-            "prefix": "   ",
-            "style": "folder"
-          },
+          "type": "path",
           "style": "powerline",
-          "type": "path"
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#f08228",
+          "properties": {
+            "style": "agnoster_short",
+            "folder_separator_icon": "/",
+            "prefix": " \uE5FE ",
+            "home_icon": "~",
+            "enable_hyperlink": true,
+            "max_depth": 2
+          }
         },
         {
           "background": "#6CA35E",
@@ -138,9 +140,7 @@
         },
         {
           "background": "#00897b",
-          "background_templates": [
-            "{{ if gt .Code 0 }}#e91e63{{ end }}"
-          ],
+          "background_templates": ["{{ if gt .Code 0 }}#e91e63{{ end }}"],
           "foreground": "#ffffff",
           "leading_diamond": "",
           "properties": {
@@ -157,16 +157,6 @@
     },
     {
       "segments": [
-        {
-          "background": "#0077c2",
-          "foreground": "#ffffff",
-          "properties": {
-            "postfix": " <transparent,#0077c2></>",
-            "prefix": "<#0077c2,transparent></>  "
-          },
-          "style": "plain",
-          "type": "shell"
-        },
         {
           "background": "#1BD760",
           "foreground": "#111111",
@@ -198,6 +188,20 @@
           },
           "style": "powerline",
           "type": "battery"
+        },
+        {
+          "type": "sysinfo",
+          "powerline_symbol": "",
+          "foreground": "#ffffff",
+          "background": "#8f43f3",
+          "invert_powerline": true,
+          "properties": {
+            "prefix": " \uf85a ",
+            "postfix": "% ",
+            "precision": 2,
+            "template": "{{ round .PhysicalPercentUsed .Precision }}"
+          },
+          "style": "powerline"
         },
         {
           "background": "#2e9599",
