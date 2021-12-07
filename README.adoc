@@ -1,5 +1,6 @@
 :toc: macro
 :powershell-config: link:https://github.com/kboom/workspace-setup-windows-powershell[Workspace Setup Windows : PowerShell]
+:git-extensions: link:https://github.com/gitextensions/gitextensions[Git Extensions]
 :powershell-docs: link:PowerShell.adoc[PowerShell]
 
 
@@ -16,6 +17,11 @@ toc::[]
 == PowerShell
 
 See {powershell-config} repository to set up your awesome PowerShell environment.
+
+== Software
+
+{git-extensions}::
+Really nice UI for the git - close to Git Kraken but open source.
 
 
 == Windows tricks
