@@ -1,6 +1,7 @@
 :toc: macro
 :powershell-config: link:https://github.com/kboom/workspace-setup-windows-powershell[Workspace Setup Windows : PowerShell]
 :git-extensions: link:https://github.com/gitextensions/gitextensions[Git Extensions]
+:tomorrow-theme: link:https://github.com/chriskempson/tomorrow-theme[Tomorrow Theme]
 :powershell-docs: link:PowerShell.adoc[PowerShell]
 
 
@@ -23,6 +24,10 @@ See {powershell-config} repository to set up your awesome PowerShell environment
 {git-extensions}::
 Really nice UI for the git - close to Git Kraken but open source.
 
+== Themes
+
+I recommend using a theme which has plugins for all editors that you use for consistent experinece.
+My personal favourite is {tomorrow-theme}.
 
 == Windows tricks
 
