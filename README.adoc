@@ -4,6 +4,7 @@
 :tomorrow-theme: link:https://github.com/chriskempson/tomorrow-theme[Tomorrow Theme]
 :powershell-docs: link:PowerShell.adoc[PowerShell]
 :mockoon: link:https://mockoon.com/[Mockoon]
+:redux-devtools: link:https://microsoftedge.microsoft.com/addons/detail/redux-devtools/nnkgneoiohoecpdiaponcejilbhhikei[Redux Devtools]
 
 
 = link:README.adoc[Home]
@@ -27,6 +28,11 @@ Really nice UI for the git - close to Git Kraken but open source.
 
 {mockoon}::
 The best mocking server with and UI and CLI that you may wish for.
+
+== React Application Development
+
+{redux-devtools}::
+A must-have for applications using Redux.
 
 == Themes
 
