@@ -36,8 +36,7 @@ A must-have for applications using Redux.
 
 == Themes
 
-I recommend using a theme which has plugins for all editors that you use for consistent experinece.
-My personal favourite is {tomorrow-theme}.
+My favourite theme is Gruvbox (for https://marketplace.visualstudio.com/items?itemName=jeffkelly.gruvboxvs10[Visual Studio])
 
 == Windows tricks
 
