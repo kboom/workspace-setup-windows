@@ -6,6 +6,7 @@
 :mockoon: link:https://mockoon.com/[Mockoon]
 :redux-devtools: link:https://microsoftedge.microsoft.com/addons/detail/redux-devtools/nnkgneoiohoecpdiaponcejilbhhikei[Redux Devtools]
 :autohotkey: link:https://www.autohotkey.com/[Autohotkey]
+:custom-curve: link:https://www.esreality.com/download.php?file_id=103413[CustomCurve]
 
 
 = link:README.adoc[Home]
@@ -32,8 +33,12 @@ The best mocking server with and UI and CLI that you may wish for.
 
 {autohotkey}::
 In a simplest use case, it allows to remap the keys on your keyboard, but offers much more than that.
-My own script for this is stored in this repository. Most importantly, it swaps left ctrl with left windows, so I'm ousing a thumb much more than a pinky finger (as in Mac), which is really great.
+My own script for this is stored in this repository. Most importantly, it swaps left ctrl with left windows, so I'm using a thumb much more than a pinky finger (as in Mac), which is really great.
 Just put the script in your startup directory located at `%appdata%\Microsoft\Windows\Start Menu\Programs\Startup`.
+
+{custom-curve}::
+A tiny utility which helps you modify your registry keys for your mouse, so that it goes faster than the limits. You also have much more control over how it behaves, useful for non-standard screen estate.
+If you want your mouse to go beyond the speed limits offered in the control panel, that's the way to go - just scale it by the factor you like.
 
 == React Application Development
 
