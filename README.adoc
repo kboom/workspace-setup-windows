@@ -33,6 +33,7 @@ The best mocking server with and UI and CLI that you may wish for.
 {autohotkey}::
 In a simplest use case, it allows to remap the keys on your keyboard, but offers much more than that.
 My own script for this is stored in this repository. Most importantly, it swaps left ctrl with left windows, so I'm ousing a thumb much more than a pinky finger (as in Mac), which is really great.
+Just put the script in your startup directory located at `%appdata%\Microsoft\Windows\Start Menu\Programs\Startup`.
 
 == React Application Development
 
