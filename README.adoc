@@ -5,6 +5,7 @@
 :powershell-docs: link:PowerShell.adoc[PowerShell]
 :mockoon: link:https://mockoon.com/[Mockoon]
 :redux-devtools: link:https://microsoftedge.microsoft.com/addons/detail/redux-devtools/nnkgneoiohoecpdiaponcejilbhhikei[Redux Devtools]
+:autohotkey: link:https://www.autohotkey.com/[Autohotkey]
 
 
 = link:README.adoc[Home]
@@ -28,6 +29,10 @@ Really nice UI for the git - close to Git Kraken but open source.
 
 {mockoon}::
 The best mocking server with and UI and CLI that you may wish for.
+
+{autohotkey}::
+In a simplest use case, it allows to remap the keys on your keyboard, but offers much more than that.
+My own script for this is stored in this repository. Most importantly, it swaps left ctrl with left windows, so I'm ousing a thumb much more than a pinky finger (as in Mac), which is really great.
 
 == React Application Development
 
