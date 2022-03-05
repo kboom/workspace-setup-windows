@@ -7,7 +7,9 @@
 :redux-devtools: link:https://microsoftedge.microsoft.com/addons/detail/redux-devtools/nnkgneoiohoecpdiaponcejilbhhikei[Redux Devtools]
 :autohotkey: link:https://www.autohotkey.com/[Autohotkey]
 :custom-curve: link:https://www.esreality.com/download.php?file_id=103413[CustomCurve]
-
+:bat: https://github.com/sharkdp/bat[bat]
+:navi: https://github.com/denisidoro/navi[navi]
+:fzf: https://github.com/junegunn/fzf[fzf]
 
 = link:README.adoc[Home]
 
@@ -22,6 +24,15 @@ toc::[]
 == PowerShell
 
 See {powershell-config} repository to set up your awesome PowerShell environment.
+
+{navi}::
+Personalised history of easily querable commands.
+
+{bat}::
+Modern replacement for cat.
+
+{fzf}::
+Command line fuzzy finder allows to select the command ending interactively.
 
 == Software
 
