@@ -26,7 +26,7 @@ toc::[]
 See {powershell-config} repository to set up your awesome PowerShell environment.
 
 {navi}::
-Personalised history of easily querable commands.
+Personalised history of easily querable commands. Go to {powershell-config} for some great powershell commands.
 
 {bat}::
 Modern replacement for cat.
