@@ -10,6 +10,7 @@
 :bat: https://github.com/sharkdp/bat[bat]
 :navi: https://github.com/denisidoro/navi[navi]
 :fzf: https://github.com/junegunn/fzf[fzf]
+:alldup: https://www.alldup.de/en_download_alldup.php[AllDup]
 
 = link:README.adoc[Home]
 
@@ -35,6 +36,9 @@ Modern replacement for cat.
 Command line fuzzy finder allows to select the command ending interactively.
 
 == Software
+
+{alldup}::
+Best duplicate finder there is, and it is free!
 
 {git-extensions}::
 Really nice UI for the git - close to Git Kraken but open source.
