@@ -1,0 +1,5 @@
+= Visual studio setup
+
+== Extensions
+
+Install https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ExtensionManager2022[Extension Manager] and import
