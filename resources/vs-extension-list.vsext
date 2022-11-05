@@ -1,0 +1,120 @@
+{
+  "id": "41ac6925-77a9-4c7d-aad8-975b197dea06",
+  "name": "My Visual Studio extensions",
+  "description": "A collection of my Visual Studio extensions",
+  "version": "1.0",
+  "extensions": [
+    {
+      "name": "Auto Close Folders",
+      "vsixId": "e3970d50-c08e-41c9-ac5a-19a0914b97c3"
+    },
+    {
+      "name": "BuildVision",
+      "vsixId": "837c3c3b-8382-4839-9c9a-807b758a929f"
+    },
+    {
+      "name": "C# Methods Code Snippets",
+      "vsixId": "e2abe71c-24a4-4e59-8cc1-8c7805afe23f"
+    },
+    {
+      "name": "Clearly Editable",
+      "vsixId": "ClearlyEditable.d69d322e-f85a-47be-ac01-3d8f823db795"
+    },
+    {
+      "name": "Close Tabs",
+      "vsixId": "CloseTabs.e5b9a3c3-a11e-428f-9e4b-414a1fb45c16"
+    },
+    {
+      "name": "CodeBlockEndTag",
+      "vsixId": "CodeBlockEndTag.KhaosCoders.5743e483-e347-4815-8c9d-7fc46ca75382"
+    },
+    {
+      "name": "CodeMaid VS2022",
+      "vsixId": "9079e73d-3fbb-4e07-8dab-f44fa5d8e8b5"
+    },
+    {
+      "name": "Codist",
+      "vsixId": "Codist.WMJ.c7b93d20-621f-4b21-9d28-d51157ef0b94"
+    },
+    {
+      "name": "Copy Git Link 2022",
+      "vsixId": "CopyGitLink2022.ff217e03-1b3c-424f-a1f0-fe7a2b3b44f6"
+    },
+    {
+      "name": "Extension Manager 2022",
+      "vsixId": "4a196712-2c3f-4730-ad1d-e7cda4185eb3"
+    },
+    {
+      "name": "Favorite Documents",
+      "vsixId": "e4b4ad14-81d5-4eb2-b04d-bd2e86aa4cd3"
+    },
+    {
+      "name": "File Path On Footer",
+      "vsixId": "FilePathOnFooter..c9550e78-0647-4b3f-b1d7-22a719752870"
+    },
+    {
+      "name": "Git Branch Differ",
+      "vsixId": "GitBranchDiffer.2a735790-c0b9-4ccc-bd58-3a7a55bb9aad"
+    },
+    {
+      "name": "gruvboxvs",
+      "vsixId": "gruvboxvs.98f06861-e611-4d68-b111-3df2737e2481"
+    },
+    {
+      "name": "Insert Guid",
+      "vsixId": "9def4441-acfd-4dd6-bffd-4531a57dee37"
+    },
+    {
+      "name": "Live Share 2022",
+      "vsixId": "Microsoft.VisualStudio.LiveShare.2022"
+    },
+    {
+      "name": "ML.NET Model Builder 2022",
+      "vsixId": "A274A0E2-E41E-40CC-A694-8D5D14BBD2D0"
+    },
+    {
+      "name": "Mouse Fast Scroll",
+      "vsixId": "Tvl.VisualStudio.MouseFastScroll.7DFA0DD1-8052-464D-9A1A-5EADC10A84B0"
+    },
+    {
+      "name": "Project Explorer 2022",
+      "vsixId": "IInspectable.ProjectExplorer.bc19cac8-0088-402c-9421-cdfd75e6a558"
+    },
+    {
+      "name": "Rainbow Braces",
+      "vsixId": "RainbowBraces.1dff1bc5-a8e4-477b-9054-2b9ec6bb88d1"
+    },
+    {
+      "name": "Roslynator 2022",
+      "vsixId": "f326ee1b-81a6-4577-b251-1f29d391cef3"
+    },
+    {
+      "name": "Select Next Occurrence",
+      "vsixId": "NextOccurrence.b213c4e9-b96f-4f9d-b1d6-fa8bc7e9da21"
+    },
+    {
+      "name": "Solution Colors",
+      "vsixId": "SolutionColors.dfa813d0-736b-491d-921a-4a3503d41543"
+    },
+    {
+      "name": "Solution Error Visualizer 2022",
+      "vsixId": "SolutionErrorVisualizer2022.a392f96b-6b33-4b53-b4bb-3376a05f986c"
+    },
+    {
+      "name": "SQLite and SQL Server Compact Toolbox",
+      "vsixId": "41521019-e4c7-480c-8ea8-fc4a2c6f50aa"
+    },
+    {
+      "name": "Stack Trace Explorer 2022",
+      "vsixId": "678efcd8-0ba0-47f5-85ed-52f33ce1bb4c"
+    },
+    {
+      "name": "Time Stamp Margin 2022",
+      "vsixId": "TimeStampMargin2022.255e8b14-4a53-4eb7-89a7-7ab741c1f612"
+    },
+    {
+      "name": "Visual Studio Theme Pack",
+      "vsixId": "VisualStudioThemePack.453e3fa1-2e0e-467e-abbd-1d08fe6468d1"
+    }
+  ]
+}
