@@ -2,4 +2,4 @@
 
 == Extensions
 
-Install https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ExtensionManager2022[Extension Manager] and import ./resources/vs-extension-list.vsext[extension list].
+Install https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ExtensionManager2022[Extension Manager] and import link:resources/vs-extension-list.vsext[extension list].
